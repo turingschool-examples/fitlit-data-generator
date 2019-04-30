@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "name": "Idella Klein",
-    "address": "657 Willms Course, Sengermouth CA 23480",
-    "email": "Devante.Greenholt28@hotmail.com",
+    "name": "Roscoe West",
+    "address": "373 Kovacek Radial, New Loy MT 89532-5060",
+    "email": "Yoshiko_Berge@hotmail.com",
     "strideLength": 4.5,
-    "dailyStepGoal": 10000
+    "dailyStepGoal": 3000
   },
   {
     "id": 2,
-    "name": "Glenna Schmitt",
-    "address": "27797 Hagenes Port, Cruickshankborough MD 33521",
-    "email": "Anya57@yahoo.com",
-    "strideLength": 4.7,
-    "dailyStepGoal": 2000
+    "name": "Skyla Stehr",
+    "address": "418 Madison Hill, North Karli NC 65445",
+    "email": "Jerod1@hotmail.com",
+    "strideLength": 4.2,
+    "dailyStepGoal": 12000
   }
 ]

@@ -1,8 +1,3 @@
-const faker = require('faker');
-faker.locale = 'en_US';
-
-const numUsers = 2;
-
 function genName() {
   return `${faker.name.firstName()} ${faker.name.lastName()}`;
 }
@@ -32,7 +27,7 @@ function genDailyStepGoal() {
 }
 
 function genUsers() {
-  return (new Array(numUsers)).fill().map(function(user, idx) {
+  return (new Array(global.numUsers)).fill().map(function(user, idx) {
     return {
       id: idx + 1,
       name: genName(),

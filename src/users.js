@@ -4,7 +4,7 @@ faker.locale = 'en_US';
 const numUsers = 2;
 
 function genName() {
-  return `${faker.name.firstName()} ${faker.name.lastName()}`
+  return `${faker.name.firstName()} ${faker.name.lastName()}`;
 }
 
 function genAddress() {
@@ -13,7 +13,7 @@ function genAddress() {
   const stateAbreviation = faker.address.stateAbbr();
   const zipCode = faker.address.zipCode();
 
-  return `${streetAddress}, ${city} ${stateAbreviation} ${zipCode}`
+  return `${streetAddress}, ${city} ${stateAbreviation} ${zipCode}`;
 }
 
 function genEmail() {
@@ -28,7 +28,7 @@ function genStrideLength() {
 
 function genDailyStepGoal() {
   dailStepGoals = [2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000];
-  return dailStepGoals[Math.floor(Math.random()*dailStepGoals.length)];
+  return dailStepGoals[Math.floor(Math.random() * dailStepGoals.length)];
 }
 
 function genUsers() {
@@ -41,7 +41,7 @@ function genUsers() {
       strideLength: genStrideLength(),
       dailyStepGoal: genDailyStepGoal()
     }
-  })
+  });
 }
 
 module.exports = genUsers;

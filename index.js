@@ -1,2 +1,6 @@
-const faker = require('faker');
+const genUsers = require('./src/users');
+
+console.log('Generating users...');
+genUsers();
+
 

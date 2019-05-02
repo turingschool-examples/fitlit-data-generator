@@ -4,23 +4,23 @@
     "hydrationData": [
       {
         "date": "03/05/2019",
-        "numOunces": 23
+        "numOunces": 48
       },
       {
         "date": "04/05/2019",
-        "numOunces": 16
+        "numOunces": 22
       },
       {
         "date": "05/05/2019",
-        "numOunces": 63
+        "numOunces": 98
       },
       {
         "date": "06/05/2019",
-        "numOunces": 82
+        "numOunces": 60
       },
       {
         "date": "07/05/2019",
-        "numOunces": 91
+        "numOunces": 43
       }
     ]
   },
@@ -29,23 +29,23 @@
     "hydrationData": [
       {
         "date": "03/05/2019",
-        "numOunces": 87
+        "numOunces": 71
       },
       {
         "date": "04/05/2019",
-        "numOunces": 39
+        "numOunces": 71
       },
       {
         "date": "05/05/2019",
-        "numOunces": 62
+        "numOunces": 47
       },
       {
         "date": "06/05/2019",
-        "numOunces": 29
+        "numOunces": 74
       },
       {
         "date": "07/05/2019",
-        "numOunces": 58
+        "numOunces": 25
       }
     ]
   }

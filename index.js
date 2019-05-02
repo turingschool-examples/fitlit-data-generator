@@ -2,6 +2,7 @@ const writeToFile = require('./src/writeToFile');
 const genUsers = require('./src/users');
 const genHydration = require('./src/hydration');
 const genSleep = require('./src/sleep');
+const genActivity = require('./src/activity');
 
 // Globals
 global.numUsers = 2;
@@ -16,4 +17,5 @@ console.log('Generating hydration data...');
 writeToFile('./output/hydration.js', genHydration());
 console.log('Generating sleep data...');
 writeToFile('./output/sleep.js', genSleep());
-
+console.log('Generating activity data...');
+writeToFile('./output/activity.js', genActivity());

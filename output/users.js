@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "name": "Delpha Ankunding",
-    "address": "86856 Jeffery Isle, New Isaiside NE 32068",
-    "email": "Andre_Jones52@gmail.com",
-    "strideLength": 4.5,
-    "dailyStepGoal": 4000
+    "name": "Tony Gusikowski",
+    "address": "365 Frederik Shoal, Nolanland GA 52732",
+    "email": "Leslie21@hotmail.com",
+    "strideLength": 4.6,
+    "dailyStepGoal": 6000
   },
   {
     "id": 2,
-    "name": "Julien Crist",
-    "address": "410 Angelita River, Neldatown TN 43153-0614",
-    "email": "Jayme22@gmail.com",
-    "strideLength": 4,
+    "name": "Bessie Abshire",
+    "address": "5322 Reinger Extension, Bridgettebury AK 38393",
+    "email": "Hayden_Bauch@hotmail.com",
+    "strideLength": 4.4,
     "dailyStepGoal": 11000
   }
 ]

@@ -2,7 +2,7 @@ const moment = require('moment');
 
 function genNumOunces() {
   const ouncesMin = 10; // fluid ounces
-  const ouncesMax = 120; // fluid ounces
+  const ouncesMax = 100; // fluid ounces
   return parseFloat((Math.random() * (ouncesMax - ouncesMin) + ouncesMin).toFixed(0));
 }
 

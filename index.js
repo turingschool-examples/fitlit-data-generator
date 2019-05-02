@@ -12,6 +12,5 @@ global.faker.locale = 'en_US';
 console.log('Generating users...');
 writeToFile('./output/users.js', genUsers());
 console.log('Generating hydration data...');
-writeToFile('./output/hydration.js',genHydration());
-
+writeToFile('./output/hydration.js', genHydration());
 

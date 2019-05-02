@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "name": "Manley Mayert",
-    "address": "8619 Helene Fork, North Francesca NH 66240-2513",
-    "email": "Arthur42@yahoo.com",
-    "strideLength": 5.5,
-    "dailyStepGoal": 8000
+    "name": "Delpha Ankunding",
+    "address": "86856 Jeffery Isle, New Isaiside NE 32068",
+    "email": "Andre_Jones52@gmail.com",
+    "strideLength": 4.5,
+    "dailyStepGoal": 4000
   },
   {
     "id": 2,
-    "name": "Marquise Waelchi",
-    "address": "97494 Damaris Wells, Lake Albin MD 36413",
-    "email": "Jarred92@yahoo.com",
-    "strideLength": 4.8,
-    "dailyStepGoal": 5000
+    "name": "Julien Crist",
+    "address": "410 Angelita River, Neldatown TN 43153-0614",
+    "email": "Jayme22@gmail.com",
+    "strideLength": 4,
+    "dailyStepGoal": 11000
   }
 ]

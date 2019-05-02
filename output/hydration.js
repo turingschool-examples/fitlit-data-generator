@@ -8,19 +8,19 @@
       },
       {
         "date": "02/05/2019",
-        "numOunces": 90
-      },
-      {
-        "date": "03/05/2019",
         "numOunces": 70
       },
       {
+        "date": "03/05/2019",
+        "numOunces": 53
+      },
+      {
         "date": "04/05/2019",
-        "numOunces": 14
+        "numOunces": 63
       },
       {
         "date": "05/05/2019",
-        "numOunces": 20
+        "numOunces": 29
       }
     ]
   },
@@ -29,23 +29,23 @@
     "hydrationData": [
       {
         "date": "01/05/2019",
-        "numOunces": 60
+        "numOunces": 53
       },
       {
         "date": "02/05/2019",
-        "numOunces": 97
+        "numOunces": 27
       },
       {
         "date": "03/05/2019",
-        "numOunces": 44
+        "numOunces": 93
       },
       {
         "date": "04/05/2019",
-        "numOunces": 81
+        "numOunces": 32
       },
       {
         "date": "05/05/2019",
-        "numOunces": 69
+        "numOunces": 102
       }
     ]
   }

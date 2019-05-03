@@ -2,6 +2,11 @@
 
 This repo is used to generate random activity data for a set of random users - think FitBit style of data.
 
+## How to Use the Script
+
+1. Install dependencies with `npm install`
+1. Run the main script to generate all data with `node index.js` (the files generated are written to the `output` directory)
+
 ## Data Model
 
 **Users**
@@ -77,5 +82,4 @@ This repo is used to generate random activity data for a set of random users - t
 ]
 
 ```
-
 

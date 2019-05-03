@@ -56,7 +56,7 @@ This repo is used to generate random activity data for a set of random users - t
         "date": [string DD/MM/YYY],
         "numOunces": [integer]
       },
-    ...more dates
+      ...more dates
     ]
   },
   ...more user data
@@ -80,6 +80,5 @@ This repo is used to generate random activity data for a set of random users - t
   },
   ...more user data
 ]
-
 ```
 

@@ -22,6 +22,11 @@ In the `src` directory, there are files for generating kinds of data (hydration,
 generateValueWithinRange([minumum value], [maximum value], [decimal precision of the generated value]);
 ```
 
+## Future Plans
+
+* Add `friends` to user object (an array of ids) - the easiest would be a one-way connection since generating mutual friends would be more difficult.
+* Add normal/gaussian distribution for generating random numbers based on a user average (mu) custom for each user so that the activity data isn't so erratic and different people can have different ranges.
+
 ## Data Model
 
 **Users**
@@ -29,12 +34,12 @@ generateValueWithinRange([minumum value], [maximum value], [decimal precision of
 ```
 [
   {
-    "id": [integer],
+    "id": [number],
     "name": [string],
     "address": [string],
     "email": [string],
-    "strideLength": [number],
-    "dailyStepGoal": [integer]
+    "strideLength": [number - feet],
+    "dailyStepGoal": [number - steps]
   },
   ...more users
 ]
@@ -45,13 +50,13 @@ generateValueWithinRange([minumum value], [maximum value], [decimal precision of
 ```
 [
   {
-    "userID": [integer],
+    "userID": [number],
     "activityData": [
       {
         "date": [string DD/MM/YYY],
-        "numSteps": [integer],
-        "minutesActive": [integer],
-        "flightsOfStairs": [integer]
+        "numSteps": [number - steps],
+        "minutesActive": [number - minutes],
+        "flightsOfStairs": [number - flights]
       },
       ...more dates
     ]
@@ -65,11 +70,11 @@ generateValueWithinRange([minumum value], [maximum value], [decimal precision of
 ```
 [
   {
-    "userID": [integer],
+    "userID": [number],
     "hydrationData": [
       {
         "date": [string DD/MM/YYY],
-        "numOunces": [integer]
+        "numOunces": [number - ounces]
       },
       ...more dates
     ]
@@ -83,12 +88,12 @@ generateValueWithinRange([minumum value], [maximum value], [decimal precision of
 ```
 [
   {
-    "userID": [integer],
+    "userID": [number],
     "sleepData": [
       {
         "date": [string DD/MM/YYY],
-        "hoursSlept": [number],
-        "sleepQuality": [number]
+        "hoursSlept": [number - hours],
+        "sleepQuality": [number - unitless]
       },
       ...more dates
     ]

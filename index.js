@@ -5,8 +5,8 @@ const genSleep = require('./src/sleep');
 const genActivity = require('./src/activity');
 
 // Globals
-global.numUsers = 50;
-global.numDays = 100;
+global.numUsers = 20;
+global.numDays = 5;
 global.faker = require('faker');
 global.faker.locale = 'en_US';
 

@@ -22,6 +22,20 @@ function genDailyStepGoal() {
   return dailStepGoals[Math.floor(Math.random() * dailStepGoals.length)];
 }
 
+function genRandomListOfFriends() {
+  let randomNumberOfFriends = generateValueWithinRange(2, 5, 0);
+
+  let friends = []
+  while(friends.length < randomNumberOfFriends){
+    let randomFriend = generateValueWithinRange(1, global.numUsers, 0);
+    if (friends.indexOf(randomFriend) === -1) {
+      friends.push(randomFriend)
+    }
+  }
+
+  return friends;
+}
+
 function genUsers() {
   return (new Array(global.numUsers)).fill().map(function(user, idx) {
     return {
@@ -30,7 +44,8 @@ function genUsers() {
       address: genAddress(),
       email: genEmail(),
       strideLength: generateValueWithinRange(4, 5.5, 1), // feet
-      dailyStepGoal: genDailyStepGoal()
+      dailyStepGoal: genDailyStepGoal(),
+      friends: genRandomListOfFriends()
     }
   });
 }

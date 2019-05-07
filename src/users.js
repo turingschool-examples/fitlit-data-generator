@@ -25,11 +25,11 @@ function genDailyStepGoal() {
 function genRandomListOfFriends() {
   let randomNumberOfFriends = generateValueWithinRange(2, 5, 0);
 
-  let friends = []
+  let friends = [];
   while(friends.length < randomNumberOfFriends){
     let randomFriend = generateValueWithinRange(1, global.numUsers, 0);
     if (friends.indexOf(randomFriend) === -1) {
-      friends.push(randomFriend)
+      friends.push(randomFriend);
     }
   }
 

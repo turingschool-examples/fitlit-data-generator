@@ -64,6 +64,9 @@ generateValueWithinRange([minumum value], [maximum value], [decimal precision of
     ]
   },
   ...more user data
+
+
+  {userID, date, numSteps, minutesActive, flightsOfStairs}
 ]
 ```
 
@@ -82,6 +85,8 @@ generateValueWithinRange([minumum value], [maximum value], [decimal precision of
     ]
   },
   ...more user data
+
+  {userID, date, numOunces}
 ]
 ```
 

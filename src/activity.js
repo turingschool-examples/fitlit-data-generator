@@ -16,8 +16,7 @@ function genActivityDataForDates(dateIndex) {
 function genActivity() {
   return (new Array(global.numDays)).fill().map(function(date, idx) {
     return genActivityDataForDates(idx + 1);
-  });
-   // need to concat these nested arrays
+  }).flat();
 }
 
 module.exports = genActivity;

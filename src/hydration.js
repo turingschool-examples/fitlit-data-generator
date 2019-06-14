@@ -14,8 +14,7 @@ function genHydrationDataForDates(dateIndex) {
 function genHydration() {
   return (new Array(global.numDays)).fill().map(function(date, idx) {
     return genHydrationDataForDates(idx + 1);
-  }); 
-  // need to concat these nested arrays
+  }).flat(); 
 }
 
 module.exports = genHydration;

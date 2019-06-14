@@ -15,8 +15,7 @@ function genSleepDataForDates(dateIndex) {
 function genSleep() {
   return (new Array(global.numDays)).fill().map(function(date, idx) {
     return genSleepDataForDates(idx + 1);
-  });
-  // need to concat these nested arrays
+  }).flat();
 }
 
 module.exports = genSleep;

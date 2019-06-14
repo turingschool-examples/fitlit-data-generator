@@ -2,6 +2,8 @@
 
 This repo is used to generate random activity data for a set of random users - think FitBit style of data.
 
+**Note:** `Array.flat()` is used in this code, which means you must use node v11^ to generate the data files.
+
 ## How to Use the Script
 
 1. Install dependencies with `npm install`

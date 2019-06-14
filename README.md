@@ -53,20 +53,12 @@ generateValueWithinRange([minumum value], [maximum value], [decimal precision of
 [
   {
     "userID": [number],
-    "activityData": [
-      {
-        "date": [string DD/MM/YYY],
-        "numSteps": [number - steps],
-        "minutesActive": [number - minutes],
-        "flightsOfStairs": [number - flights]
-      },
-      ...more dates
-    ]
+    "date": [string YYYY/MM/DD],
+    "numSteps": [number - steps],
+    "minutesActive": [number - minutes],
+    "flightsOfStairs": [number - flights]
   },
   ...more user data
-
-
-  {userID, date, numSteps, minutesActive, flightsOfStairs}
 ]
 ```
 
@@ -76,17 +68,10 @@ generateValueWithinRange([minumum value], [maximum value], [decimal precision of
 [
   {
     "userID": [number],
-    "hydrationData": [
-      {
-        "date": [string DD/MM/YYY],
-        "numOunces": [number - ounces]
-      },
-      ...more dates
-    ]
+    "date": [string YYYY/MM/DD],
+    "numOunces": [number - ounces]
   },
   ...more user data
-
-  {userID, date, numOunces}
 ]
 ```
 
@@ -96,14 +81,9 @@ generateValueWithinRange([minumum value], [maximum value], [decimal precision of
 [
   {
     "userID": [number],
-    "sleepData": [
-      {
-        "date": [string DD/MM/YYY],
-        "hoursSlept": [number - hours],
-        "sleepQuality": [number - unitless]
-      },
-      ...more dates
-    ]
+    "date": [string YYYY/MM/DD],
+    "hoursSlept": [number - hours],
+    "sleepQuality": [number - unitless]
   },
   ...more user data
 ]

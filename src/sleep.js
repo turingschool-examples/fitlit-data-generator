@@ -1,10 +1,11 @@
 const moment = require('moment');
 const generateValueWithinRange = require('./util');
 
-function genSleepDataForUser() {
-  return (new Array(global.numDays)).fill().map(function(day, idx) {
+function genSleepDataForDates(dateIndex) {
+  return (new Array(global.numUsers)).fill().map(function(user, idx) {
     return {
-      date: moment().add(idx + 1, 'days').format('DD/MM/YYYY'),
+      userID: idx + 1,
+      date: moment().add(dateIndex, 'days').format('YYYY/MM/DD'),
       hoursSlept: generateValueWithinRange(4, 11, 1), // hours
       sleepQuality: generateValueWithinRange(1, 5, 1) // unitless
     }
@@ -12,12 +13,9 @@ function genSleepDataForUser() {
 }
 
 function genSleep() {
-  return (new Array(global.numUsers)).fill().map(function(user, idx) {
-    return {
-      userID: idx + 1,
-      sleepData: genSleepDataForUser()
-    }
-  });
+  return (new Array(global.numDays)).fill().map(function(date, idx) {
+    return genSleepDataForDates(idx + 1);
+  }).flat();
 }
 
 module.exports = genSleep;

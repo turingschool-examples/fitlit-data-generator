@@ -1,5 +1,6 @@
 # Output data
 output/**
+!output/.keep
 
 # Logs
 logs

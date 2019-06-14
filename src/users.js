@@ -43,7 +43,7 @@ function genUsers() {
       name: genName(),
       address: genAddress(),
       email: genEmail(),
-      strideLength: generateValueWithinRange(4, 5.5, 1), // feet
+      strideLength: generateValueWithinRange(2.5, 4.5, 1), // feet
       dailyStepGoal: genDailyStepGoal(),
       friends: genRandomListOfFriends()
     }

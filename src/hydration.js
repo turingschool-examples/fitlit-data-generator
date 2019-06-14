@@ -2,7 +2,7 @@ const moment = require('moment');
 const generateValueWithinRange = require('./util');
 
 function genHydrationDataForDates(dateIndex) {
-  return (new Array(global.numUsers)).fill().map(function(day, idx) {
+  return (new Array(global.numUsers)).fill().map(function(user, idx) {
     return {
       userID: idx + 1,
       date: moment().add(dateIndex, 'days').format('YYYY/MM/DD'),

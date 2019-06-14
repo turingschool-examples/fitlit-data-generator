@@ -17,5 +17,5 @@ console.log('Generating hydration data...');
 writeToFile('./output/hydration.js', genHydration());
 console.log('Generating sleep data...');
 writeToFile('./output/sleep.js', genSleep());
-// console.log('Generating activity data...');
-// writeToFile('./output/activity.js', genActivity());
+console.log('Generating activity data...');
+writeToFile('./output/activity.js', genActivity());
